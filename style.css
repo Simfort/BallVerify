@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Ball_Verify{
+    height: 100vh;
+}
+.Ball_Verify_Ball{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    clip-path: circle(50% at 50% 50%);
+    box-shadow: inset 10px 10px 100px rgb(131, 125, 125);
+}
+.Ball_Verify_input{
+   
+    border:solid 5px rgb(32, 21, 185);
+    padding: 10px;
+    border-radius: 50px;
+    transition:  0.5s  all;
+}
+.Ball_Verify_input:focus{
+    background-color: rgb(85, 102, 117);
+    transition:  0.5s ;
+}
+.Ball_Verify_span{
+    width: 100px;
+    text-align: center;
+    margin-right: 100px;
+    border-radius:20px ;
+    top: 200px;
+    left: 47%;
+    color: rgb(0, 136, 255);
+    background-color: rgb(255, 255, 255);
+}

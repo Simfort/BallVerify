@@ -33,12 +33,10 @@ body{
     transition:  0.5s ;
 }
 .Ball_Verify_span{
-    width: 100px;
-    text-align: center;
-    margin-right: 100px;
-    border-radius:20px ;
-    top: 200px;
-    left: 47%;
+    width: 200px;
+    height: 200px;
     color: rgb(0, 136, 255);
-    background-color: rgb(255, 255, 255);
+    clip-path: circle(50% at 50% 50%);
+    background-color: rgb(119, 113, 113);
+    border:solid 10px blue;
 }
